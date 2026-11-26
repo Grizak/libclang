@@ -117,7 +117,6 @@ const Cursor_SizeOfPackExpr = CursorKind(C.CXCursor_SizeOfPackExpr)
 const Cursor_LambdaExpr = CursorKind(C.CXCursor_LambdaExpr)
 const Cursor_ObjCBoolLiteralExpr = CursorKind(C.CXCursor_ObjCBoolLiteralExpr)
 const Cursor_ObjCSelfExpr = CursorKind(C.CXCursor_ObjCSelfExpr)
-const Cursor_OMPArraySectionExpr = CursorKind(C.CXCursor_OMPArraySectionExpr)
 const Cursor_ObjCAvailabilityCheckExpr = CursorKind(C.CXCursor_ObjCAvailabilityCheckExpr)
 const Cursor_FixedPointLiteral = CursorKind(C.CXCursor_FixedPointLiteral)
 const Cursor_OMPArrayShapingExpr = CursorKind(C.CXCursor_OMPArrayShapingExpr)
@@ -411,7 +410,6 @@ var cursorKindStrings = map[CursorKind]string{
 	Cursor_LambdaExpr:                "LambdaExpr",
 	Cursor_ObjCBoolLiteralExpr:       "ObjCBoolLiteralExpr",
 	Cursor_ObjCSelfExpr:              "ObjCSelfExpr",
-	Cursor_OMPArraySectionExpr:       "OMPArraySectionExpr",
 	Cursor_ObjCAvailabilityCheckExpr: "ObjCAvailabilityCheckExpr",
 	Cursor_FixedPointLiteral:         "FixedPointLiteral",
 	Cursor_OMPArrayShapingExpr:       "OMPArrayShapingExpr",
